@@ -1,0 +1,57 @@
+ <html>
+     <head>
+         <title>OPERATOR</title>
+            <link rel="stylesheet" href="../CSS/bootstrap.css">
+     </head>
+     <body>
+
+<!-- belajar alert
+    contoh :
+    var a=10
+        var b=5.2
+        var c=3
+        buat tombol operator :
+            1. tambah(kuning)=a+b+c
+            2. kurang(merah)=a-b
+            3.kali(hijau)=c*a*b
+            4. bagi(biru)=a/c
+        tampilkan dalam bentuk alert-->
+
+            <button class="btn btn-warning" onclick="tambah()">tambah</button>
+            <button class="btn btn-danger" onclick="kurang()">kurang</button>
+            <button class="btn btn-success" onclick="kali()">kali</button>
+            <button class="btn btn-primary" onclick="bagi()">bagi</button>
+
+         <script src="../JS/bootstrap.js"></script>
+         <script>
+             var a=10;
+             var b=5.2;
+             var c=3;
+
+            function tambah() {
+                alert("nilai penjumlahan"+(a+b+c));
+            }
+
+            function kurang() {
+                alert("nilai pengurangan"+(a-b));
+            }
+
+            function kali() {
+                alert("nilai perkalian"+(c*a*b));
+            }
+
+            function bagi() {
+                alert("nilai pembagian"+(a/c));
+            }
+         </script>
+
+        
+     </body>
+ </html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 

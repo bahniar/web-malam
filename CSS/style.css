@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:white;
+}
+h1{
+    color:rgb(228, 214, 28);
+    text-align: center;
+    background-color:black;
+    padding: 10px;
+}

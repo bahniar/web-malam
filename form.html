@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title> FORM HTML </title>
+	</head>
+
+	<body>
+		<!-- taging form dalam html -->
+		<form action="" method="" enctype="">
+		<!-- text -->
+			<br>
+			<label> NAMA LENGKAP </label> <!-- untuk buat tulisan disamping kotak teks/ supaya tau isian form itu untuk apa -->
+			<input type="text"> <!-- buat kotak untuk menulis teks -->
+			<input type="text" placeholder=""value=""> <!-- "placeholder = agar ada tulisan di dalam kotak teks", "value= pemberian nilai langsung tanpa harus mengetik" -->
+
+		<!-- PASSWORD -->
+			<br>
+			<label> Password : </label>
+			<input type="password" placeholder=""> <!-- berlaku ketika login, inspect element=untuk mengetahui pasword -->
+		<!-- number -->
+			<br>
+			<label> NO HP : </label>
+			<input type="number" placeholder="">
+		<!-- date -->
+			<br>
+			<label> Tanggal lahir : </label>
+			<input type="date" placeholder="" name="">
+		<!-- radio = utk mendefenisikan jenis kelamin, gol.darah, dll -->
+			<br>
+			<label> jenis kelamin : </label>
+			<input type="radio" name="jk"> laki-laki
+			<input type="radio" name="jk"> perempuan
+
+			<br>
+			<label> golongan darah : </label>
+			<input type="radio" name="goldar"> A
+			<input type="radio" name="goldar"> B
+			<input type="radio" name="goldar"> AB
+			<input type="radio" name="goldar"> O
+		<!-- checkbox = bisa memilih lebih dari satu pilihan. contohnya ketika ingin membuat hobi, dll. -->
+			<br>
+			<label> HOBI : </label>
+			<input type="checkbox" name="">Membaca
+			<input type="checkbox" name="">Memasak
+			<input type="checkbox" name="">Memancing
+			<input type="checkbox" name="">Main game
+			<input type="checkbox" name="">Ngoding
+		<!-- select option = digunakan ketika pilihannya ada banyak, ex. kabupaten, dll -->
+			<br>
+			<label> KABUPATEN : </label>
+			<select>
+				<option>Banda Aceh</option>
+				<option>Aceh Besar</option>
+				<option>Bireun</option>
+				<option>lhoksumawe</option>
+				<option>Aceh jaya</option>
+				<option>Aceh tengah</option>
+				<option>Simelue</option>
+				<option>Aceh tamiang</option>
+				<option>Meulaboh</option>
+				<option>Bener meriah</option>
+			</select>
+		<!-- hidden = ketika kita mengetik, tapi tidak muncul di form -->
+			<input type="hidden"> <br>
+		<!-- text area = ketika ingin menulis tulisan yang banyak, ex. alamat,dll. kotaknya bisa diperbesar/diperkecil sesuai kebutuhan -->
+			<br>
+			<label> Alamat : </label>
+			<textarea name="" placeholder="masukkan alamat"> Jln. Tuan Di pakeh </textarea>
+		<!-- week -->
+			<br>
+			<label> Minggu ke : </label>
+			<input type="week">
+		<!-- time -->
+			<br>
+			<label> Waktu lokal : </label>
+			<input type="datetime-local" name="">
+		<!-- color -->
+			<br>
+			<label> Warna : </label>
+			<input type="color" name="">
+		<!-- Email -->
+			<br>
+			<label> Email : </label>
+			<input type="email" name="" placeholder="email.aaa@gmail.com">
+		<!-- image -->
+			<br>
+			<label> Gambar </label>
+			<input type="image" name="">
+		<!-- month -->
+			<br>
+			<label> Bulan </label>
+			<input type="month" name="">
+		<!-- range -->
+			<br>
+			<label> Range : </label>
+			<input type="range" name="">
+		<!-- file = utk mengambil sebuah file. ex: ambil image, pdf, dll -->
+			<br>
+			<label> pilih file : </label>
+			<input type="file" name="">
+		<!-- URL -->
+			<br>
+			<label> Input URL : </label>
+			<input type="url" name="">
+		<!-- search -->
+			<br>
+			<label> cari : </label>
+			<input type="search" name="">
+		<!-- submit = biasa digunakan utk tombol menyimpan seperti mengedit, menghapus, menyimpan, dll -->
+			<br>
+			<input type="submit" name="" value="update">
+			<button> update </button> <!-- fungsinya sama seperti submit -->
+		<!-- reset -->
+			<br>
+			<input type="reset" name="" value="clean">
+		</form>
+	</body>
+</html>

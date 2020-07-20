@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title>contoh tampilan</title>
+        <style>
+            *{
+                margin: 0;
+                /* padding: 0; */
+            }
+            .wrap{
+                background: blue;
+                /* width: 900px; */
+            }
+
+            /* bagian kepala */
+            .wrap .kepala{
+                background: blueviolet;
+                /* height: 50px; */
+                padding: 20px 30px;
+                color: brown;
+            }
+
+            /* akhir kepala */
+
+            /* bagian menu */
+            .wrap .menu{
+                background: cadetblue;
+            }
+
+            .wrap .menu ul{
+                padding: 0;
+                margin: 0;
+                background: chartreuse;
+                overflow: hidden;
+                text-decoration: none;
+            }
+
+            .wrap .menu ul li{
+                float: left;
+                list-style-type: none;
+                padding: 10px;
+            }
+
+            .wrap .menu ul li a{
+                color: chocolate;
+                text-decoration: none;
+            }
+
+            /* akhir menu */
+            .clear{
+                clear: both;
+            }
+
+            .badan{
+                height: 450px;
+            }
+
+            /* bagian sidebar */
+            .wrap .badan .sidebar{
+                background: black;
+                float: left;
+                width: 25%;
+                height: 100%;
+            }
+
+            /* akhir sidebar */
+            .wrap .badan .isi{
+                background: coral;
+                float: left;
+                height: 100%;
+                width: 75%;
+            }
+
+            .wrap .footer{
+                width: 100%;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="kepala">
+                <h1>ayo bermain</h1>
+                <p>bermain teka teki silang</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a herf="#">Beranda</a></li>
+                    <li><a herf="#">Kuis</a></li>
+                    <li><a herf="#">Cara bermain</a></li>
+                    <li><a herf="#">pengaturan</a></li>
+                    <li><a herf="#">Bantuan</a></li>
+                </ul>
+            </div>
+            <div class="badan">
+                <div class="sidebar">
+                    sidebar
+                    <ul>
+                        <li><a herf="#">mulai</a></li>
+                        <li><a herf="#">level</a></li>
+                        <li><a herf="#">petunjuk</a></li>
+                        <li><a herf="#">suara</a></li>
+                    </ul>
+                </div>
+                <div class="isi">
+                    isi
+                </div>
+                <div class="clear"></div>
+                <div class="footer"></div>
+            </div>
+        </div>
+    </body>
+</html>
